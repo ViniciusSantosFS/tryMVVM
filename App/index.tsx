@@ -1,6 +1,8 @@
-import React from "react";
-import Routes from "./ViewModel/Routes";
+export { default } from "../storybook";
 
-export default function App() {
-  return <Routes />;
-}
+// import React from "react";
+
+// import Routes from "./ViewModel/Routes";
+// export default function App() {
+//   return __DEV__ ? StorybookUIRoot : Routes;
+// }
