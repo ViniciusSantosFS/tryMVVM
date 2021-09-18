@@ -10,7 +10,9 @@ const Stack = createNativeStackNavigator();
 export default function Routes() {
   return (
     <NavigationContainer>
-      <Stack.Screen name="Login" component={Login} />
+      <Stack.Navigator>
+        <Stack.Screen name="Login" component={Login} />
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
